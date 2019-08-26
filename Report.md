@@ -35,6 +35,7 @@ with a previously prepared ERD,modified throughout the project, we organize our 
 ![image](https://user-images.githubusercontent.com/37135244/63666711-a8a63f00-c796-11e9-8323-adb821244b39.png)
 
 after using sqlalchemy to crate tables and columns, we loaded data into db using session(details could be find in final_etl_script.ipynb)
+![image](https://user-images.githubusercontent.com/37135244/63668723-87951c80-c79d-11e9-89e6-83be93cc3f76.png)
 
 
 
