@@ -12,8 +12,8 @@ once the based url indentifed and finalized the list of key information we want 
 3. Instantiating a beautiful soup object to store the html 
 4. using href to obtain all the listing urls and append them to a list
 5. having the list of urls we could make second request to extract all the key information associated with individual car(similar to click on listing to view car' interior color, drive type etc.)
-<img src="1.jpg"
-     alt="Markdown Monster icon"
+<img src="../desktop/1.jpg"
+     alt="n"
      style="float: left; margin-right: 10px;" />
 
 
