@@ -1,5 +1,5 @@
 # ETL_project
-scraping from two generically different website: e-bay auto and cars.com to help user identify and compare features of cars they would like to purchase 
+scraping from two generically different website: e-bay auto and cars.com to pull all listings into database by performing ETL
 
 
 * **E**xtract:  
@@ -24,8 +24,17 @@ once the based url indentifed and finalized the list of key information we want 
 
 
 * **L**oad: the final database, tables/collections, and why this was chosen.
-after organizing the final data file, we import our data into database.
+after organizing the final data file, we import our data into database:
+Pre-reqs: execute the setup.sql script found @ https://github.com/amy676767/ETL_project/blob/master/v1.0_create_script.sql
+Username for Postgres: postgres
+Password for Postgres: postgres
+1.cars.com data - imported from https://github.com/amy676767/ETL_project/blob/master/Cars.ipynb
+2.ebay data - imported from https://github.com/amy676767/ETL_project/blob/master/ebay_script.ipynb
 with a previously prepared ERD,modified throughout the project, we organize our tables following ERD as shown below:
-![final results](2.jpg)
+
+![image](https://user-images.githubusercontent.com/37135244/63666711-a8a63f00-c796-11e9-8323-adb821244b39.png)
+
+after using sqlalchemy to crate tables and columns, we loaded data into db using session(details could be find in final_etl_script.ipynb)
+
 
 
