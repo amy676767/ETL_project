@@ -1,0 +1,26 @@
+# v8.0
+
+Sources
+-
+id INT PK
+name VARCHAR(255)
+
+Inventory
+-
+id INT PK
+source_id INT FK >- Sources.id
+condition VARCHAR(255)
+engine VARCHAR(255)
+exterior_color VARCHAR(255)
+drive_type VARCHAR(255)
+fuel_type VARCHAR(255)
+interior_color VARCHAR(255)
+make VARCHAR(255)
+mileage INT
+model VARCHAR(255)
+price MONEY
+transmission VARCHAR(255)
+seller_name VARCHAR(255)
+url VARCHAR(MAX)
+vin VARCHAR(100)
+year INT
